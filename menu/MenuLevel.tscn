@@ -1,0 +1,70 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://menu/ButtonLevel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://levels/Level.tscn" type="PackedScene" id=2]
+[ext_resource path="res://menu/Title.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/tiles/arrowDown.png" type="Texture" id=4]
+[ext_resource path="res://extras/Clickable.tscn" type="PackedScene" id=5]
+[ext_resource path="res://menu/MenuLevel.gd" type="Script" id=6]
+[ext_resource path="res://menu/ButtonCredits1.tscn" type="PackedScene" id=7]
+[ext_resource path="res://assets/sounds/menu.mp3" type="AudioStream" id=8]
+
+[node name="Level" instance=ExtResource( 2 )]
+script = ExtResource( 6 )
+
+[node name="Player" parent="Map" index="3"]
+position = Vector2( 656, 88 )
+
+[node name="ControlHearts" parent="CanvasLayer/UIControl" index="0"]
+visible = false
+
+[node name="BackButton" parent="CanvasLayer/UIControl" index="1"]
+visible = false
+
+[node name="Title" parent="." index="2" instance=ExtResource( 3 )]
+position = Vector2( 520, 32 )
+scale = Vector2( 2, 2 )
+
+[node name="Buttons" type="Node2D" parent="." index="3"]
+
+[node name="ButtonLevel1" parent="Buttons" index="0" instance=ExtResource( 1 )]
+position = Vector2( 512, 128 )
+level = 1
+
+[node name="ButtonLevel2" parent="Buttons" index="1" instance=ExtResource( 1 )]
+position = Vector2( 576, 128 )
+level = 2
+
+[node name="ButtonLevel3" parent="Buttons" index="2" instance=ExtResource( 1 )]
+position = Vector2( 640, 128 )
+level = 3
+
+[node name="ButtonLevel4" parent="Buttons" index="3" instance=ExtResource( 1 )]
+position = Vector2( 704, 128 )
+level = 4
+
+[node name="ButtonLevel5" parent="Buttons" index="4" instance=ExtResource( 1 )]
+position = Vector2( 768, 128 )
+level = 5
+
+[node name="ArrowDown" type="Sprite" parent="." index="4"]
+modulate = Color( 0.486275, 0.270588, 0.294118, 1 )
+position = Vector2( 664, 200 )
+texture = ExtResource( 4 )
+
+[node name="Clickable" parent="ArrowDown" index="0" instance=ExtResource( 5 )]
+position = Vector2( -8, -8 )
+
+[node name="Credits" type="Node2D" parent="." index="5"]
+
+[node name="ButtonCredits1" parent="Credits" index="0" instance=ExtResource( 7 )]
+position = Vector2( 576, 256 )
+
+[node name="AudioMusic" parent="." index="7"]
+stream = ExtResource( 8 )
+
+[connection signal="click" from="Buttons/ButtonLevel1" to="." method="_on_ButtonLevel1_click"]
+[connection signal="click" from="Buttons/ButtonLevel2" to="." method="_on_ButtonLevel2_click"]
+[connection signal="click" from="Buttons/ButtonLevel3" to="." method="_on_ButtonLevel3_click"]
+[connection signal="click" from="Buttons/ButtonLevel4" to="." method="_on_ButtonLevel4_click"]
+[connection signal="click" from="Buttons/ButtonLevel5" to="." method="_on_ButtonLevel5_click"]

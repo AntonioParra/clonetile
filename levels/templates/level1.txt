@@ -1,0 +1,31 @@
+extras
+1 res://extras/LetterW.tscn
+2 res://extras/LetterD.tscn
+3 res://extras/LetterS.tscn
+4 res://extras/LetterA.tscn
+5 res://extras/MouseClick.tscn
+6 res://extras/ArrowR.tscn
+7 res://extras/ArrowU.tscn
+grid 2
+W W W W W W W W W W W W W
+W                       W
+W   B   6   6   6   G   W
+W                       W
+W W W W W w w w W W W W W
+        W w w w W
+        W w w w W
+        W       W
+        W       W
+        W       W
+        W   w   W
+        W   7   W
+        W   5   W
+        W       W
+      W W       W W
+      W           W
+      W     1     W
+      W   4 P 2   W
+      W     3     W
+      W           W
+      W W W W W W W
+end

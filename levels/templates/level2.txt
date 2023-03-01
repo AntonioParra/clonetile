@@ -1,0 +1,22 @@
+extras
+1 res://extras/ArrowU.tscn
+2 res://extras/ArrowD.tscn
+grid 2
+                W W W                                               W W W W W
+              W   b   W                                           W           W
+              W       W                           W               W     G     W
+              W w w w W                         W w W             W           W
+              W w w w W                       W w   w W           W     W     W
+    W W W W W W w w w W W W W W             W w       w W         W           W
+  W                             W W W W W W w           w W W W W W     1     W
+W                                 w w w w w               w w w w w           W
+W     P   B                         w w w         H e       w w w             W
+W                                 w w w w w               w w w w w           W
+  W                             W W W W W W w           w W W W W W     2     W
+    W W W W W W w w w W W W W W             W w       w W         W           W
+              W w w w W                       W w   w W           W     W     W
+              W w w w W                         W w W             W           W
+              W       W                           W               W     G     W
+              W   b   W                                           W           W
+                W W W                                               W W W W W
+end

@@ -1,0 +1,19 @@
+grid 2
+                                        W W W
+                                      W       W
+                                      W   G   W
+                                      W       W
+                W           W         W w w w W W W W W W W
+              W b W       W H W     W           w           W
+  W W W W W W W D W W W W W D W W W w           w           W W W W W W W W
+W       D                           w     D     w           w w w           W
+W   B   D K                         w   D s D   w     e     w w w   P   G   W
+W       D                           w     D     w           w w w           W
+  W W W W W W W D W W W W W D W W W w           w           W W W W W W W W
+              W H W       W b W     W           w           W
+                W           W         W w w w W W W W W W W
+                                      W       W
+                                      W   G   W
+                                      W       W
+                                        W W W
+end

@@ -1,0 +1,44 @@
+grid 2
+W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W
+W             W             W             W             W             W
+W             T     H       T             T             T       K     W
+W     s       T             T             T     e       T             W
+W             T             T     H       T             T             W
+W             T             T             T             T             W
+W             W             W             W             W             W
+W W T T T T W W W T T T T W W W T T T T W W W T T T T W W W T T T T W W
+W             W             W             W             W             W
+W             T             T             T   s         T             W
+W       e     T     G       T             T             T       b     W
+W             T             T     b       T             T             W
+W             T             T             T             T             W
+W             W             W             W             W             W
+W W T T T T W W W T T T T W W W T T T T W W W T T T T W W W T T T T W W
+W             W             W             W             W             W
+W             T             T             T             T             W
+W             T             T             T             T             W
+W             T       b     T       e     T       H     T       P     W
+W g           T             T             T             T             W 
+W             W             W             W             W             W
+W W T T T T W W W T T T T W W W T T T T W W W T T T T W W W T T T T W W
+W             W             W             W             W             W
+W             T             T             T             T             W
+W       e     T             T       s     T             T             W
+W             T     g       T             T     e       T       g     W
+W             T             T             T             T             W
+W             W             W             W             W             W
+W W T T T T W W W T T T T W W W T T T T W W W T T T T W W W T T T T W W
+W             W             W             W             W             W
+W             T             T         H   T             T             W
+W     H       T             T             T             T       b     W
+W             T     e       T             T             T             W
+W             T             T             T       s     T             W
+W             W             W             W             T             W
+W W W W W W W W W W W W W W W W T T T T W W W W W W W W W W W W W W W W
+                              W D D D D W
+                              W         W
+                              W   B B   W
+                              W   B B   W
+                              W         W
+                                W W W W 
+end
